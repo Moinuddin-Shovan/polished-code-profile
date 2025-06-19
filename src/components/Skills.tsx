@@ -2,33 +2,33 @@
 const Skills = () => {
   const skillCategories = [
     {
-      category: 'Frontend',
+      category: 'Programming Languages',
       skills: [
-        { name: 'React', level: 90 },
-        { name: 'TypeScript', level: 85 },
-        { name: 'JavaScript', level: 95 },
-        { name: 'HTML/CSS', level: 90 },
-        { name: 'Tailwind CSS', level: 85 }
+        { name: 'C/C++', level: 95 },
+        { name: 'Python', level: 85 },
+        { name: 'JavaScript', level: 85 },
+        { name: 'Java', level: 80 },
+        { name: 'Dart', level: 75 }
       ]
     },
     {
-      category: 'Backend',
+      category: 'Web & Mobile Development',
       skills: [
-        { name: 'Node.js', level: 85 },
-        { name: 'Python', level: 80 },
-        { name: 'Express.js', level: 85 },
-        { name: 'MongoDB', level: 75 },
+        { name: 'Django', level: 85 },
+        { name: 'MERN Stack', level: 80 },
+        { name: 'Next.js', level: 75 },
+        { name: 'Flutter', level: 85 },
+        { name: 'Android (Kotlin)', level: 80 }
+      ]
+    },
+    {
+      category: 'ML & Tools',
+      skills: [
+        { name: 'OpenCV', level: 85 },
+        { name: 'TensorFlow', level: 80 },
+        { name: 'YOLO', level: 75 },
+        { name: 'MongoDB', level: 85 },
         { name: 'PostgreSQL', level: 80 }
-      ]
-    },
-    {
-      category: 'Tools & Others',
-      skills: [
-        { name: 'Git', level: 90 },
-        { name: 'Docker', level: 75 },
-        { name: 'AWS', level: 70 },
-        { name: 'Firebase', level: 80 },
-        { name: 'Figma', level: 75 }
       ]
     }
   ];

@@ -11,30 +11,30 @@ const Hero = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Moinuddin Shovan
+              Mohammad Moinuddin Kader Chowdhury
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Software Engineer specializing in full-stack development with expertise in 
-            React, Node.js, and modern web technologies
+            Software Engineer | Cybersecurity and AI Enthusiast with 2+ years of experience in C++ development, 
+            low-latency APIs, and Machine Learning integration
           </p>
           
           <div className="flex justify-center space-x-6 mb-12">
             <a
-              href="https://github.com"
+              href="https://github.com/moinuddin-shovan"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
             >
               <Github size={24} className="text-white" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/moinuddin-shovan"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
             >
               <Linkedin size={24} className="text-white" />
             </a>
             <a
-              href="mailto:contact@example.com"
+              href="mailto:mkshovan@gmail.com"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-all duration-300 hover:scale-110"
             >
               <Mail size={24} className="text-white" />

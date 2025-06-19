@@ -30,19 +30,19 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: 'Email',
-      value: 'moinuddin.shovan@example.com',
-      link: 'mailto:moinuddin.shovan@example.com'
+      value: 'mkshovan@gmail.com',
+      link: 'mailto:mkshovan@gmail.com'
     },
     {
       icon: <Phone size={24} />,
-      title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567'
+      title: 'LinkedIn',
+      value: 'Connect with me',
+      link: 'https://linkedin.com/in/moinuddin-shovan'
     },
     {
       icon: <MapPin size={24} />,
       title: 'Location',
-      value: 'New York, NY',
+      value: 'Dhaka, Bangladesh',
       link: '#'
     }
   ];
@@ -66,8 +66,8 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-white mb-6">Let's Talk</h3>
               <p className="text-gray-300 mb-8">
-                Have a project in mind or want to collaborate? I'd love to hear from you. 
-                Send me a message and I'll get back to you as soon as possible.
+                Experienced software engineer passionate about C++ development, AI, and cybersecurity. 
+                Currently maintaining APIs handling 3M+ daily transactions. Let's discuss how we can work together!
               </p>
             </div>
 
@@ -150,7 +150,7 @@ const Contact = () => {
 
         <div className="mt-16 pt-8 border-t border-white/10 text-center">
           <p className="text-gray-400">
-            © 2024 Moinuddin Shovan. All rights reserved.
+            © 2024 Mohammad Moinuddin Kader Chowdhury. All rights reserved.
           </p>
         </div>
       </div>

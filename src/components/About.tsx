@@ -1,27 +1,27 @@
 
-import { Code, Database, Globe, Smartphone } from 'lucide-react';
+import { Code, Database, Globe, Shield } from 'lucide-react';
 
 const About = () => {
   const highlights = [
     {
       icon: <Code size={32} />,
-      title: 'Full-Stack Development',
-      description: 'Experienced in both frontend and backend technologies'
+      title: 'C++ Development',
+      description: '2+ years experience in retail solutions and low-latency APIs'
     },
     {
       icon: <Database size={32} />,
-      title: 'Database Design',
-      description: 'Proficient in SQL and NoSQL database management'
+      title: 'Machine Learning',
+      description: 'Experience integrating ML models with Android and computer vision'
     },
     {
       icon: <Globe size={32} />,
-      title: 'Web Technologies',
-      description: 'Modern frameworks and responsive design principles'
+      title: 'Full-Stack Development',
+      description: 'MERN stack, Django, Next.js, and cross-platform mobile apps'
     },
     {
-      icon: <Smartphone size={32} />,
-      title: 'Mobile Development',
-      description: 'Cross-platform mobile app development experience'
+      icon: <Shield size={32} />,
+      title: 'Cybersecurity & AI',
+      description: 'Enthusiast in AI, MLOps, LLMOps, and Cyber Security'
     }
   ];
 
@@ -38,26 +38,26 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              I'm a passionate software engineer with over 3 years of experience in developing 
-              robust, scalable applications. I specialize in modern web technologies and have 
-              a strong foundation in computer science fundamentals.
+              Software engineer with 2+ years of experience in C++ development for retail solutions, 
+              advanced algorithms, and low-latency APIs. Currently working at Fiftytwo A/S, 
+              maintaining APIs handling 3 million transactions daily.
             </p>
             
             <p className="text-lg text-gray-300 leading-relaxed">
-              My journey in software development started with a curiosity about how things work 
-              behind the scenes. Today, I'm proficient in multiple programming languages and 
-              frameworks, always eager to learn new technologies and solve complex problems.
+              Proficient in payment device integration, TDD, and API scripting with JavaScript and Python. 
+              Experienced in integrating Machine Learning models with Android and developing cross-platform 
+              apps with Flutter. Passionate about AI, MLOps, LLMOps, Cyber Security, Computer Vision and Blockchain.
             </p>
 
             <div className="flex flex-wrap gap-4">
               <span className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm">
+                C++ Developer
+              </span>
+              <span className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm">
+                AI Enthusiast
+              </span>
+              <span className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm">
                 Problem Solver
-              </span>
-              <span className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm">
-                Team Player
-              </span>
-              <span className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 text-blue-300 rounded-full text-sm">
-                Continuous Learner
               </span>
             </div>
           </div>

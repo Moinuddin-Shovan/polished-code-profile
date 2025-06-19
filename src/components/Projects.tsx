@@ -4,36 +4,36 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
+      title: 'E-Commerce Site',
+      description: 'A responsive ecommerce website built with Python, Django, PostgreSQL, Bootstrap and StripeAPI featuring user registration, admin panel, rating system, filtering options, and order tracking.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: 'https://github.com',
-      live: 'https://example.com'
+      technologies: ['Python', 'Django', 'PostgreSQL', 'Bootstrap', 'Stripe API'],
+      github: 'https://github.com/moinuddin-shovan',
+      live: '#'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop',
-      technologies: ['React', 'TypeScript', 'Firebase', 'Material-UI'],
-      github: 'https://github.com',
-      live: 'https://example.com'
+      title: 'Bohon: Parcel Delivery App',
+      description: 'Real-time multi-user cross-platform Flutter parcel delivery app with Firebase Auth, Google Sign-in, encrypted messaging, push notifications, and embedded chatting system.',
+      image: 'https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=500&h=300&fit=crop',
+      technologies: ['Flutter', 'Firebase', 'MongoDB', 'Push Notifications'],
+      github: 'https://github.com/moinuddin-shovan',
+      live: '#'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard that displays current weather conditions, forecasts, and interactive maps using external APIs.',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=500&h=300&fit=crop',
-      technologies: ['React', 'API Integration', 'Chart.js', 'CSS3'],
-      github: 'https://github.com',
-      live: 'https://example.com'
+      title: 'Patient Action Detection System',
+      description: 'Computer vision-based surveillance system for patient monitoring using Deep Learning. Achieved 94% precision with MobileNetV2, 2D CNN, and GRU for fall detection.',
+      image: 'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=500&h=300&fit=crop',
+      technologies: ['Python', 'OpenCV', 'TensorFlow', 'MobileNetV2', 'Computer Vision'],
+      github: 'https://github.com/moinuddin-shovan',
+      live: '#'
     },
     {
-      title: 'Social Media Analytics',
-      description: 'A comprehensive analytics platform for social media metrics with data visualization and reporting capabilities.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop',
-      technologies: ['Python', 'Django', 'PostgreSQL', 'D3.js'],
-      github: 'https://github.com',
-      live: 'https://example.com'
+      title: 'Retail Software Solutions',
+      description: 'Developed omni-channel retail software using C++ with TDD, integrated low-latency APIs, and created EFT drivers for payment terminals handling 3M+ daily transactions.',
+      image: 'https://images.unsplash.com/photo-1556155092-490a1ba16284?w=500&h=300&fit=crop',
+      technologies: ['C++', 'JavaScript', 'Python', 'REST API', 'TDD'],
+      github: '#',
+      live: '#'
     }
   ];
 
