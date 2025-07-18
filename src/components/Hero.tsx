@@ -16,7 +16,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Software Engineer | Cybersecurity and AI Enthusiast with 2+ years of experience in C++ development, 
+            Software Engineer | Cybersecurity and AI Enthusiast with 3+ years of experience in C++ development, 
             low-latency APIs, and Machine Learning integration
           </p>
           
